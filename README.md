@@ -1,3 +1,5 @@
+# Burkina
+---
 ### What is it?
 ---
 Burkina is a machine translation application created by Dawn Marshall that facilitates the learning and translating of underrepresented African languages. 
