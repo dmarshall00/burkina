@@ -6,7 +6,8 @@ function populateDropdown(dropdown, options) {
     dropdown.querySelector("ul").innerHTML = "";
     options.forEach((option) => {
         const li = document.createElement("li");
-        const title = option.name + " (" + option.native + ")";
+        //const title = option.name + " (" + option.native + ")";
+        const title = option.name
         li.innerHTML = title;
         li.dataset.value = option.code;
         li.classList.add("option");
